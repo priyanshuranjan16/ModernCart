@@ -65,7 +65,7 @@ function HomePage({
             <div className="mt-6 bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold mb-4 text-gray-900">Shop by Category</h3>
               <div className="space-y-3">
-                {categories.map((category) => (
+                {categories.map((category : Category) => (
                   <button
                     key={category.id}
                     onClick={() => setSelectedCategory(category.id)}
@@ -646,7 +646,7 @@ function App() {
             </div>
             
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2024 ModernCart. All rights reserved.</p>
+              <p>&copy; 2025 ModernCart. All rights reserved.</p>
             </div>
           </div>
         </footer>
